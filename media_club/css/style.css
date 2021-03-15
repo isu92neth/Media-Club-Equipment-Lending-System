@@ -1,0 +1,247 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+div.mainBar ul{
+    list-style-type: none;http://localhost/MediaWeb/naviBar.php
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+div.mainBar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div.mainBar li a:hover:not(.active) {
+  background-color: #111;
+}
+
+div.mainBar li{
+    float: left;
+}
+
+div.mainBar li.right{
+    float: right;
+}
+
+@media screen and (max-width: 1000px) {
+  div.mainBar li.right, 
+  div.mainBar li {float: none;}
+}
+
+.container button[type="submit"]{
+  text-align: center; 
+  background-color: #2c1c1c;
+   font-weight: bold; color: white;
+}
+
+input:read-only{
+  font-weight: bold;
+  color: black;
+}
+.form-control{
+  text-align: center;
+}
+
+.adLogin{
+    width: 400px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 90px 30px;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.adLogin p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.adLogin input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.adLogin input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.adLogin input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #0563fa;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 100px;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.adLogin input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #03317d;
+    color: #fff;
+}
+.back{
+    font-size: 15px;
+    font-style: Serif;
+    text-align: center;
+            
+}
+.back a{
+    color: #b8bec6;
+}
+.btn11{
+    border:1px solid white;
+    padding: 10px 30px;
+    color: white;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.btnHome{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+
+.srch{
+    padding-left: 1000px;
+
+}
+
+.table-fixed thead th { 
+    position: sticky; 
+    top: 0;
+     background-color: #313957; 
+ }
+
+ .my-custom-scrollbar {
+position: relative;
+height: 200px;
+overflow: auto;
+}
+.table-wrapper-scroll-y {
+display: block;
+}
+
+
+
