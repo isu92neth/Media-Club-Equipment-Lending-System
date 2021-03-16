@@ -157,10 +157,10 @@ CREATE TABLE `crew member` (
 
 INSERT INTO `crew member` (`Registration Number`, `ID`, `First Name`, `Middle Name`, `Last Name`, `Faculty`, `Current Event`) VALUES
 ('E/15/156', '977461279V', 'Kasun', 'Chamara', 'Rathnayake', 'Engineering', 'Open Day'),
-('E/16/012', '977349995V', 'Isurika', 'Nethmini', 'Adikari', 'Engineering', 'Reach For Water'),
-('E/16/290', '977527553V', 'Kalani', NULL, 'Prabhoda', 'Engineering', NULL),
+('E/18/022', '977349995V', 'Saasha', 'Nethmi', 'Herath', 'Engineering', 'Reach For Water'),
+('E/16/250', '977527553V', 'Shalani', NULL, 'Parami', 'Engineering', NULL),
 ('A/17/233', '977875577V', 'Amali', 'Tharaka', 'Herath', 'Arts', NULL),
-('A/18/290', '977488553V', 'Supun', NULL, 'Mudalige', 'Arts', 'Open Day');
+('A/18/340', '977488553V', 'Supun', NULL, 'Mudalige', 'Arts', 'Open Day');
 
 -- --------------------------------------------------------
 
